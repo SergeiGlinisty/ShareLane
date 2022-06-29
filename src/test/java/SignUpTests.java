@@ -139,6 +139,5 @@ public class SignUpTests {
         String actualResult = element.getText();
         String expectedResult = "Oops, error on page. ZIP code should have 5 digits";
         Assert.assertEquals(actualResult, expectedResult, "The test dropped!");
-//fixed errors in SignUpTests's file
     }
 }
